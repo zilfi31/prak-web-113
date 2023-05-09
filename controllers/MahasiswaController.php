@@ -13,4 +13,10 @@ class MahasiswaController extends \yii\web\Controller
         return $this->render('profil');
     }
 
+    public function actionDetail($nim)
+    {
+        return $this->render('detail');
+ 
+    }
+
 }
